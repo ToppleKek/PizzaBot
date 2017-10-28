@@ -41,7 +41,8 @@ end
 
 bot.command(:invite) do |event|
     bot.send_file(event.channel.id, File.new( 'papa2.jpg' ), caption: "Mamma mia! It's not pizza time in your server yet?!? "\
-    "Invite the bot with:\n<#{bot.invite_url}>\nand make a text channel called pizza!")
+    "Invite the bot with:\n<#{bot.invite_url}>\nand make a text channel called pizza!\n"\
+    'This bot on github: <https://github.com/ToppleKek/PizzaBot>')
 end
 
 bot.command(:kill) do |event|
