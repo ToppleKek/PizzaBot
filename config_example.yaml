@@ -1,5 +1,7 @@
-client_id: you know
-token: token here
-prefix: prefix here
-owner: id here
-game: "It's pizza time!"
+client_id: #bot id, int
+token: #auth token, just put it here
+prefix: #prefix for commands, string
+owner: #user id, int
+game: #now playing status, string
+stats: #bool
+stats_chan: #channel id, int
